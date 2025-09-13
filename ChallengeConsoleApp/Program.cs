@@ -16,6 +16,11 @@ using ChallengeProblemBigO.ArrayAndHashingBenchMark;
 );*/
 
 // Is Anagram Problem Benchmark 002
-BenchmarkRunner.Run<Solution002Benchmark>(
+/*BenchmarkRunner.Run<Solution002Benchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+// TwoSum Problem Benchmark 003 
+BenchmarkRunner.Run<Solution003Benchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)    
 );
