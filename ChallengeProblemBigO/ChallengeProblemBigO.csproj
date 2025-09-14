@@ -14,4 +14,8 @@
     <ProjectReference Include="..\ChallengeTesting\ChallengeTesting.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="LinkedListBenchMark\" />
+  </ItemGroup>
+
 </Project>

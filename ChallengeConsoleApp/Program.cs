@@ -3,6 +3,8 @@ using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
 using ChallengeProblemBigO.ArrayAndHashingBenchMark;
+using ChallengeProblemSolution.LinkedList._001;
+using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution001Benchmark;
 
 /*BenchmarkSwitcher
     .FromAssembly(Assembly.GetExecutingAssembly())
@@ -21,6 +23,11 @@ using ChallengeProblemBigO.ArrayAndHashingBenchMark;
 );*/
 
 // TwoSum Problem Benchmark 003 
-BenchmarkRunner.Run<Solution003Benchmark>(
+/*BenchmarkRunner.Run<Solution003Benchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)    
+);*/
+
+// ReverseList Problem Benchmark 001 
+BenchmarkRunner.Run<Solution001Benchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
