@@ -23,6 +23,7 @@
   <ItemGroup>
     <Folder Include="ArrayAndHashingTests\" />
     <Folder Include="LinkedListTests\Helper\" />
+    <Folder Include="TwoPointerTests\" />
   </ItemGroup>
 
   <ItemGroup>

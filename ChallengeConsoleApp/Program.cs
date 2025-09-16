@@ -28,6 +28,11 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 // ReverseList Problem Benchmark 001 
-BenchmarkRunner.Run<Solution001Benchmark>(
+/*BenchmarkRunner.Run<Solution001Benchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+// Is Palindrome String Problem Benchmark 001
+BenchmarkRunner.Run<ChallengeProblemBigO.TwoPointerBenchMark.Solution001Benchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
