@@ -33,6 +33,10 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 // Is Palindrome String Problem Benchmark 001
-BenchmarkRunner.Run<ChallengeProblemBigO.TwoPointerBenchMark.Solution001Benchmark>(
+/*BenchmarkRunner.Run<ChallengeProblemBigO.TwoPointerBenchMark.Solution001Benchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+BenchmarkRunner.Run<SolutionTransformArrayBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
