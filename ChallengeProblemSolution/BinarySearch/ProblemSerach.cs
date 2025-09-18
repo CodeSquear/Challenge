@@ -12,8 +12,8 @@ public class ProblemSearch
 
             if (nums[midd] == target) return midd;
 
-            if (nums[midd] < target) left++;
-            else right--;
+            if (nums[midd] < target) left = midd + 1;
+            else right = midd - 1;
         }
 
         return -1;
