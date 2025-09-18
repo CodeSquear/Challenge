@@ -3,6 +3,7 @@ using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
 using ChallengeProblemBigO.ArrayAndHashingBenchMark;
+using ChallengeProblemBigO.BinarySearch;
 using ChallengeProblemSolution.LinkedList._001;
 using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution001Benchmark;
 
@@ -37,6 +38,12 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );*/
 
-BenchmarkRunner.Run<SolutionTransformArrayBenchmark>(
+// Transform Array Problem Benchmark 001
+/*BenchmarkRunner.Run<SolutionTransformArrayBenchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+// Search Problem Benchmark 001
+BenchmarkRunner.Run<SolutionSearchBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
