@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="ArrayAndHashingTests\" />
-    <Folder Include="LinkedListTests\Helper\" />
     <Folder Include="BinarySearch\" />
     <Folder Include="TwoPointerTests\" />
   </ItemGroup>
