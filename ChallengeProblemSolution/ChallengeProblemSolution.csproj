@@ -9,6 +9,7 @@
   <ItemGroup>
     <Folder Include="BinarySearch\" />
     <Folder Include="LinkedList\002\" />
+    <Folder Include="LinkedList\003\" />
     <Folder Include="TwoPointer\" />
   </ItemGroup>
 
