@@ -44,6 +44,11 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 // Search Problem Benchmark 001
-BenchmarkRunner.Run<SolutionSearchBenchmark>(
+/*BenchmarkRunner.Run<SolutionSearchBenchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+// Max Frequency Elements Daily problem Benchmark 002
+BenchmarkRunner.Run<SolutionMaxFrequencyElementsBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );

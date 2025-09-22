@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ArrayAndHashingTests\" />
     <Folder Include="BinarySearch\" />
     <Folder Include="TwoPointerTests\" />
   </ItemGroup>
