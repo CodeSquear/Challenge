@@ -1,10 +1,11 @@
-﻿using System.Reflection;
-using BenchmarkDotNet.Attributes;
+﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Running;
 using ChallengeProblemBigO.ArrayAndHashingBenchMark;
 using ChallengeProblemBigO.BinarySearch;
+using ChallengeProblemBigO.Math;
 using ChallengeProblemSolution.LinkedList._001;
+using System.Reflection;
 using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution001Benchmark;
 
 /*BenchmarkSwitcher
@@ -49,6 +50,11 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 // Max Frequency Elements Daily problem Benchmark 002
-BenchmarkRunner.Run<SolutionMaxFrequencyElementsBenchmark>(
+/*BenchmarkRunner.Run<SolutionMaxFrequencyElementsBenchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+// CheckPerfectNumber Problem Benchmark 001
+BenchmarkRunner.Run<SolutionCheckPerfectNumberBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
