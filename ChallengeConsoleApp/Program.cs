@@ -55,6 +55,11 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 // CheckPerfectNumber Problem Benchmark 001
-BenchmarkRunner.Run<SolutionCheckPerfectNumberBenchmark>(
+/*BenchmarkRunner.Run<SolutionCheckPerfectNumberBenchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+// MinimumSum Problem Benchmark 001
+BenchmarkRunner.Run<SolutionMinimumSumTestBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
