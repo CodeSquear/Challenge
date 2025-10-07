@@ -6,6 +6,7 @@ using ChallengeProblemBigO.BinarySearch;
 using ChallengeProblemBigO.Math;
 using ChallengeProblemSolution.LinkedList._001;
 using System.Reflection;
+using ChallengeProblemSolution.Math;
 using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution001Benchmark;
 
 /*BenchmarkSwitcher
@@ -60,6 +61,11 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 // MinimumSum Problem Benchmark 001
-BenchmarkRunner.Run<SolutionMinimumSumTestBenchmark>(
+/*BenchmarkRunner.Run<SolutionMinimumSumTestBenchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+
+BenchmarkRunner.Run<SolutionAddDigitsBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
