@@ -4,9 +4,10 @@ using BenchmarkDotNet.Running;
 using ChallengeProblemBigO.ArrayAndHashingBenchMark;
 using ChallengeProblemBigO.BinarySearch;
 using ChallengeProblemBigO.Math;
+using ChallengeProblemSolution.ArrayAndHashing;
 using ChallengeProblemSolution.LinkedList._001;
-using System.Reflection;
 using ChallengeProblemSolution.Math;
+using System.Reflection;
 using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution001Benchmark;
 
 /*BenchmarkSwitcher
@@ -66,6 +67,10 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
 );*/
 
 
-BenchmarkRunner.Run<SolutionAddDigitsBenchmark>(
+/*BenchmarkRunner.Run<SolutionAddDigitsBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
-);
+);*/
+
+BenchmarkRunner.Run<SolutionMajorityElementBenchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+ );
