@@ -4,6 +4,7 @@ using BenchmarkDotNet.Running;
 using ChallengeProblemBigO.ArrayAndHashingBenchMark;
 using ChallengeProblemBigO.BinarySearch;
 using ChallengeProblemBigO.Math;
+using ChallengeProblemBigO.StringBenchMark;
 using ChallengeProblemSolution.ArrayAndHashing;
 using ChallengeProblemSolution.LinkedList._001;
 using ChallengeProblemSolution.Math;
@@ -71,6 +72,11 @@ using Solution001Benchmark = ChallengeProblemBigO.LinkedListBenchMark.Solution00
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );*/
 
-BenchmarkRunner.Run<SolutionMajorityElementBenchmark>(
+/*BenchmarkRunner.Run<SolutionMajorityElementBenchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
- );
+ );*/
+
+BenchmarkRunner.Run<SolutionFindWordsContainingTestBenchmark>
+(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);
