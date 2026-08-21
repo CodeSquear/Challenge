@@ -15,6 +15,7 @@ public class Solution001
         }
 
         int start = 0, end = res.Length - 1;
+
         while (start < end)
         {
            if (res[start] != res[end])
