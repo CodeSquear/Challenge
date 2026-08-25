@@ -3,3 +3,5 @@ LinkedList
 	2| Problem URL: https://leetcode.com/problems/reorder-list/description/
 	3| Problem URL: https://leetcode.com/problems/reorder-list/description/
 	4| Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+	5| Problem URL: https://neetcode.io/problems/reorder-linked-list/question?list=blind75
+	6| Problem URL: https://neetcode.io/problems/remove-node-from-end-of-linked-list/question?list=blind75
