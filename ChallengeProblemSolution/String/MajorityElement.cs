@@ -2,7 +2,7 @@
 
 public class MajorityElement
 {
-    public int MajorityElement(int[] nums)
+    public int MajorityElements(int[] nums)
     {
         var dict = new Dictionary<int, int>();
 

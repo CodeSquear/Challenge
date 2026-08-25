@@ -22,7 +22,6 @@
 
   <ItemGroup>
     <Folder Include="BinarySearch\" />
-    <Folder Include="StringTest\" />
     <Folder Include="TwoPointerTests\" />
   </ItemGroup>
 
